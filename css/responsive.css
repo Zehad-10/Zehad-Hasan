@@ -1,0 +1,100 @@
+@media only screen and (max-width:991px) {
+    html {
+        font-size: 80%;
+    }
+
+    .mail-ftr input::placeholder {
+        font-size: 10px;
+    }
+
+    .wrk-m-btn {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+    }
+
+    .navbar-toggler {
+        background: #fff;
+    }
+
+    .navbar-light .navbar-toggler {
+        color: rgba(0, 0, 0, .55);
+        border: none;
+    }
+
+    .navbar-toggler:focus {
+        text-decoration: none;
+        outline: 0;
+        box-shadow: none;
+    }
+
+    .navbar-collapse {
+        padding: 30px 0px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .header-text {
+        margin-bottom: 50px;
+    }
+
+    .w-10 p {
+        width: 90%;
+    }
+
+    .srv-text {
+        margin-bottom: 50px;
+    }
+
+    .hlp-txt {
+        margin-bottom: 50px;
+    }
+
+    .wor-text {
+        margin-top: 50px;
+    }
+
+    .ow-txt {
+        margin-top: 50px;
+    }
+
+    .brand {
+        text-align: center;
+    }
+
+    .grp-img {
+        margin-bottom: 50px;
+    }
+
+    .mail-ftr input::placeholder {
+        font-size: 16px;
+    }
+
+    .footer-copy-txt {
+        text-align: center;
+    }
+
+    .cpy-li {
+        margin-bottom: 30px;
+    }
+
+    .cpy-icon {
+        margin-bottom: 30px;
+    }
+
+    .footer-text {
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    html {
+        font-size: 65%;
+    }
+}
+
+@media only screen and (max-width: 345px) {
+    .wrk-mail input::placeholder {
+        font-size: 13px;
+    }
+}
